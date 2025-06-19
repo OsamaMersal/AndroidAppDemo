@@ -1,5 +1,6 @@
 package com.example.localizationdemo
 
+import androidx.compose.ui.res.stringResource
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -32,8 +33,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    val hello = stringResource(id = R.string.hello_text, name)
     Text(
-        text = "Hello $name!",
+        text = hello,
         modifier = modifier
     )
 }
