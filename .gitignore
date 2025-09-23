@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# IDE
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+
+# Native builds
+.cxx/
+.externalNativeBuild/
+
+# Android Studio captures
+captures/
+
+# Kotlin/Studio caches & logs
+.kotlinc/
+.kotlin/
+**/*.log
+
+# macOS
+.DS_Store
