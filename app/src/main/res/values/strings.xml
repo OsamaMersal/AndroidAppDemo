@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidAppDemo</string>
+    <string name="hello_text">Hello %1$s!</string>
 </resources>
