@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidAppDemo</string>
+    <string name="hello_text">Hallo %1$s!</string>
+    <string name="welcome_user">Willkommen, %1$s!</string>
+    <string name="points_summary">%1$s, du hast %2$d Punkte.</string>
+    <plurals name="inbox_count">
+    <item quantity="one">%d neue Nachricht</item>
+    <item quantity="other">%d neue Nachrichten</item>
+  </plurals>
+
+</resources>
