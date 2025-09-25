@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.height
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.Column
+import androidx.compose.ui.res.pluralStringResource
 
 
 class MainActivity : ComponentActivity() {
@@ -42,6 +43,11 @@ class MainActivity : ComponentActivity() {
                         Header(name = "PTC", points = 42)
 
                         Spacer(modifier = Modifier.height(16.dp))
+
+                        // plurals demo
+                        InboxCount(count = 1)
+                        InboxCount(count = 5)
+
                     }
                 }
             }
@@ -68,6 +74,11 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    @Composable
+    fun InboxCount(count: Int) {
+        val text = pluralStringResource(R.plurals.inbox_count, count, count)
+        Text(text)
+    }
 
     @Preview(showBackground = true)
     @Composable
