@@ -4,4 +4,10 @@
     <string name="hello_text">Bonjour %1$s !</string>
     <string name="welcome_user">Bienvenue, %1$s !</string>
     <string name="points_summary">%1$s, tu as %2$d points.</string>
+    <plurals name="inbox_count">
+    <item quantity="one">%d nouveau message</item>
+    <item quantity="many">%d nouveaux messages</item>
+    <item quantity="other">%d nouveaux messages</item>
+  </plurals>
+
 </resources>
